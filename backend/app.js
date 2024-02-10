@@ -31,7 +31,7 @@ const dbConfig = {
   host: 'us-cluster-east-01.k8s.cleardb.net',
   user: 'b894f52a1a497e',
   password: '9512c7dc',
-  database: 'ecommerce',
+  database: 'heroku_02134090a2d7fb2',
 };
 
 const connection = mysql.createConnection(dbConfig);
