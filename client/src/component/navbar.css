@@ -1,0 +1,34 @@
+.custom-navbar .nav {
+    margin-left: auto;
+  }
+
+.navbar-toggler {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.navbar-toggler-icon {
+    color: #000 !important;
+}
+
+.nav-link {
+    color: #333 !important;
+    transition: 0.3s !important;
+    font-size: 18px !important;
+    font-family: 'Poppins' !important;
+    font-weight: 500 !important;
+}
+
+.nav-link:hover {
+    color: #ff6e14 !important;
+}
+
+.logo {
+    font-weight: bold !important;
+    color: #ff6e14 !important;
+}
+
+.position-relative {
+    position: relative;
+  }
+  
