@@ -101,7 +101,7 @@ const handleSubmit = (e) => {
         if (res.data.Message === 'User logged in successfully') {
       alert.success(res.data.Message,{
         onClose:() =>{
-          window.location.replace("https://aysam-99-ecommerce-app-bb49f91d3703.herokuapp.com/home");
+          window.location.href="/home";
          }
         
       })
@@ -111,7 +111,7 @@ const handleSubmit = (e) => {
     } else if (res.data.Message === 'Admin logged in successfully') {
       alert.success(res.data.Message,{
        onClose:() =>{
-        window.location.replace("https://aysam-99-ecommerce-app-bb49f91d3703.herokuapp.com/admin/dashboard");
+        window.location.href="/admin/dashboard";
        }
       })
        
