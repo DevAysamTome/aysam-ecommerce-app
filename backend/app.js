@@ -32,7 +32,7 @@ const dbConfig = {
   user: 'b894f52a1a497e',
   port:'3306',
   password: '9512c7dc',
-  database: 'heroku_02134090a2d7fb2',
+  database: 'heroku_02134090a2d7fb2'
 };
 
 const connection = mysql.createConnection(dbConfig);
