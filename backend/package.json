@@ -4,8 +4,9 @@
   "description": "server-side",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "server": "node app.js"
+     "start": "concurrently \"npm instll && npm run dev \" \"npm run frontend \"",
+    "dev": "node app.js",
+    "frontend":"cd ../client &&  npm start"
   },
   "author": "",
   "license": "ISC",
