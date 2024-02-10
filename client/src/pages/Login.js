@@ -72,7 +72,7 @@ export default function LoginPage({ onLogout}) {
     .then(res => {
       if(res.status == 200){
       alert.success('Register Successfull !')
-        window.location.href='/Login';
+        history.go(-1);
       }
       else{
         alert.error('Register Unsuccessfull !')
