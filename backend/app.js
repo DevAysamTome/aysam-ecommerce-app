@@ -3,7 +3,7 @@ const mysql = require('mysql');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 const cors=require("cors");
 const cookieParser = require('cookie-parser');
 const salt = 10;
@@ -13,7 +13,7 @@ const path = require('path');
 
 
 const corsOptions ={
-    origin:'http://localhost:3000', 
+    origin:'https://aysam-99-ecommerce-app-bb49f91d3703.herokuapp.com', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200,
     methods :["POST" , "GET"],
