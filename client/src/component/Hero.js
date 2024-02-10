@@ -8,7 +8,7 @@ const Hero = () => {
   
 // Fetch Hero Products
   useEffect(() => {
-    fetch('api/data/')
+    fetch('/api/data/')
       .then(response => response.json())
       .then(data => setProducts(data))
       .catch(error => console.error(error))
