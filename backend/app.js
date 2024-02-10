@@ -13,7 +13,7 @@ const path = require('path');
 
 
 const corsOptions ={
-    origin:'http://localhost:3000', 
+    origin:'https://aysam-99-ecommerce-app-bb49f91d3703.herokuapp.com', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200,
     methods :["POST" , "GET"],
@@ -23,15 +23,16 @@ const corsOptions ={
 app.use(cors(corsOptions));
 app.use(cookieParser()); // Add this line
 app.use(express.json());
-app.use(express.static(path.join(__dirname + "/public/index.html")));
+app.use(express.static(path.join(__dirname , "public")));
 
 
 // MySQL database connection configuration
 const dbConfig = {
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'ecommerce',
+  host: 'us-cluster-east-01.k8s.cleardb.net',
+  user: 'b894f52a1a497e',
+  port:'3306',
+  password: 'f61b7fab5f3c998',
+  database: 'heroku_02134090a2d7fb2'
 };
 
 const connection = mysql.createConnection(dbConfig);

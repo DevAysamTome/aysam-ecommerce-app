@@ -13,10 +13,7 @@
   "keywords": [],
   "author": "AYSAM",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://git.heroku.com/aysam-dev-ecommerce-app.git"
-  },
+  
   "description": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
