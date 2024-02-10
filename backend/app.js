@@ -23,7 +23,7 @@ const corsOptions ={
 app.use(cors(corsOptions));
 app.use(cookieParser()); // Add this line
 app.use(express.json());
-app.use(express.static(path.join(__dirname , "../client/")));
+app.use(express.static(path.join(__dirname , "../client")));
 
 
 // MySQL database connection configuration
