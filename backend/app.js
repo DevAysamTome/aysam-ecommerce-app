@@ -30,6 +30,7 @@ app.use(express.static(path.join(__dirname , "public")));
 const dbConfig = {
   host: 'us-cluster-east-01.k8s.cleardb.net',
   user: 'b894f52a1a497e',
+  port:'3306',
   password: '9512c7dc',
   database: 'heroku_02134090a2d7fb2',
 };
