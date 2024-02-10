@@ -4,7 +4,7 @@
   "description": "server-side",
   "main": "app.js",
   "scripts": {
-     "start": "concurrently \"npm instll && npm run dev \" \"npm run frontend \"",
+     "start": "concurrently \"npm install && npm run dev \" \"npm run frontend \"",
     "dev": "node app.js",
     "frontend":"cd ../client &&  npm start"
   },
