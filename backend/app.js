@@ -28,9 +28,9 @@ app.use(express.static(path.join(__dirname , "public")));
 
 // MySQL database connection configuration
 const dbConfig = {
-  host: 'localhost',
-  user: 'root',
-  password: '',
+  host: 'us-cluster-east-01.k8s.cleardb.net',
+  user: 'b894f52a1a497e',
+  password: '9512c7dc',
   database: 'ecommerce',
 };
 
