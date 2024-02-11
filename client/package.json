@@ -45,7 +45,7 @@
   },
   "scripts": {
     
-    "start": "npm install  && serve -s build",
+    "start": "npm install  && serve -s build && npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
