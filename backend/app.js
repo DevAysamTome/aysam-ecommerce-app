@@ -13,7 +13,7 @@ const path = require('path');
 
 
 const corsOptions ={
-    origin:'aysam-99-ecommerce-app-bb49f91d3703.herokuapp.com', 
+    origin:'http://localhost:3000', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200,
     methods :["POST" , "GET"],
