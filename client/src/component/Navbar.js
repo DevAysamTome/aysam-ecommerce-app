@@ -66,7 +66,7 @@ const CustomNavbar = ({cart , isLoggedIn, name , onLogout , isAdminLogged , admi
             {isAdminLogged ?
              <Nav.Item>
              <NavLink as={Link} to="/admin/dashboard" smooth className="nav-link feutred" >
-               <i className="fa fa-phone"></i> Vite
+               <i className="fa fa-phone"></i> Dashbord
              </NavLink>
            </Nav.Item>
            :

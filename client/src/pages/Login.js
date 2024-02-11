@@ -101,8 +101,8 @@ const handleSubmit = (e) => {
         if (res.data.Message === 'User logged in successfully') {
       alert.success(res.data.Message,{
         onClose:() =>{
-          window.location.href="/home";
-         }
+          history.go(-1);
+                 }
         
       })
       
@@ -111,8 +111,8 @@ const handleSubmit = (e) => {
     } else if (res.data.Message === 'Admin logged in successfully') {
       alert.success(res.data.Message,{
        onClose:() =>{
-        window.location.href="/admin/dashboard";
-       }
+        history.go(-1);
+             }
       })
        
     }
