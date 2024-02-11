@@ -101,7 +101,7 @@ const handleSubmit = (e) => {
         if (res.data.Message === 'User logged in successfully') {
       alert.success(res.data.Message,{
         onClose:() =>{
-          history.go(-1);
+          window.location.href="/"
                  }
         
       })
