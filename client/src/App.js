@@ -46,7 +46,7 @@ function App({formValues}) {
  //  Fetch User Using Cookies
   axios.defaults.withCredentials = true;
   useEffect(() =>{
-      axios.get('/home')
+      axios.get(':3001/home')
       .then(res =>{
           if(res.status === 200){
             setLoggedIn(true);
